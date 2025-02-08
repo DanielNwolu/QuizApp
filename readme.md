@@ -2,8 +2,6 @@
 
 A clean and intuitive quiz application built with vanilla JavaScript, HTML, and CSS. Test your knowledge with multiple-choice questions and track your progress in real-time.
 
-![Quiz App Demo](https://via.placeholder.com/600x400.png?text=Quiz+App+Screenshot+Demo)
-
 ## Features
 
 - 🎯 Welcome screen with start button
