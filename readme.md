@@ -2,6 +2,10 @@
 
 A clean and intuitive quiz application built with vanilla JavaScript, HTML, and CSS. Test your knowledge with multiple-choice questions and track your progress in real-time.
 
+
+## visit for demo
+[visit this link for demo](https://daniel-quiz-app.netlify.app/)
+
 ## Features
 
 - 🎯 Welcome screen with start button
