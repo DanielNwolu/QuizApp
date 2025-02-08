@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="quiz-flow">
+        <!-- Welcome Screen -->
+        <div class="welcome-container" id="welcome-container">
+            <h1>Welcome to the Quiz</h1>
+            <p>Test your knowledge with this interactive quiz!</p>
+            <button class="start-btn" id="start-button">Start Quiz</button>
+        </div>
+    
+        <!-- Quiz Screen -->
+        <div class="quiz-container hidden" id="quiz-container">
+            <div class="progress" id="progress">Question 1 of 5</div>
+            <h1 class="question" id="question"></h1>
+            <div class="options" id="options"></div>
+            <button class="next-btn hidden" id="next-button">Next Question</button>
+        </div>
+    
+        <!-- Result Screen -->
+        <div class="result-container hidden" id="result-container">
+            <h2>Quiz Completed!</h2>
+            <p>Your score: <span id="score">0</span>/<span id="total-questions">0</span></p>
+            <button class="restart-btn" id="restart-button">Restart Quiz</button>
+        </div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

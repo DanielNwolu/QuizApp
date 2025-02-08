@@ -1,0 +1,11 @@
+export const welcomeContainer = document.getElementById('welcome-container');
+export const startButton = document.getElementById('start-button');
+export const quizContainer = document.getElementById('quiz-container');
+export const questionElement = document.getElementById('question');
+export const optionsElement = document.getElementById('options');
+export const nextButton = document.getElementById('next-button');
+export const progressElement = document.getElementById('progress');
+export const resultContainer = document.getElementById('result-container');
+export const scoreElement = document.getElementById('score');
+export const totalQuestionsElement = document.getElementById('total-questions');
+export const restartButton = document.getElementById('restart-button');
